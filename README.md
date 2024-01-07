@@ -1,4 +1,10 @@
-# 💤 LazyVim
+## description
+  Nvim configuration following craftzdog setup -> https://www.youtube.com/watch?v=fFHlfbKVi30&t=1216s&ab_channel=devaslife
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+## requirements
+  - apt install build-essential
+  - apt install ripgrep
+
+## techs used
+  - terminal wezterm -> https://wezfurlong.org/wezterm/
+    - configure wsl on wezterm -> https://wezfurlong.org/wezterm/config/lua/config/default_domain.html
