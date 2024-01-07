@@ -19,10 +19,10 @@ keymap.set('n', 'sk', '<C-w>k')
 keymap.set('n', 'sj', '<C-w>j')
 keymap.set('n', 'sl', '<C-w>l')
 
--- tabs
-keymap.set('n', 'te', ':tabedit', opts)
-keymap.set('n', '<tab>', ':tabnext<Return>', opts)
-keymap.set('n', '<s-tab>', ':tabprev<Return>', opts)
+-- tabs (buffers)
+keymap.set('n', '<tab>', ':bn<Return>', opts)
+keymap.set('n', '<s-tab>', ':bp<Return>', opts)
+keymap.set("n", "<leader>tx", ":bd<CR>")
 
 -- restart lsp server
 keymap.set('n', '<leader>rs', ':LspRestart<CR>')
